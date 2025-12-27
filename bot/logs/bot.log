@@ -1,0 +1,3 @@
+2025-12-27 15:54:45.749 [MainThread] INFO __main__ - Bot started
+2025-12-27 15:55:12.609 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 15:55:12.609 [MainThread] ERROR TeleBot - Break infinity polling

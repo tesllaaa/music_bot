@@ -1,0 +1,105 @@
+git init2025-12-27 15:55:21.404 [MainThread] INFO __main__ - Bot started
+2025-12-27 15:55:58.719 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 15:55:58.720 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:00:33.484 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:06:24.721 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:06:24.722 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:06:25.286 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:31:10.017 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:31:10.018 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:31:11.030 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:32:10.055 [WorkerThread2] INFO __main__ - AI запрос от 1032157088
+2025-12-27 16:34:43.290 [WorkerThread1] INFO __main__ - AI запрос от 1770816999
+2025-12-27 16:36:04.677 [WorkerThread1] INFO __main__ - AI запрос от 733376544
+2025-12-27 16:45:13.338 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:45:13.338 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:45:13.850 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:45:24.148 [WorkerThread1] ERROR __main__ - Ошибка парсинга ссылки /add https://vk.ru/audio200961588_456240391_b2eb5852e6aa1c56db: name 'requests' is not defined
+2025-12-27 16:45:55.478 [WorkerThread2] ERROR __main__ - Ошибка парсинга ссылки /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542: name 'requests' is not defined
+2025-12-27 16:49:31.033 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:49:31.033 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:49:31.521 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:49:40.524 [WorkerThread2] ERROR __main__ - Ошибка парсинга ссылки /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:51:43.339 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:51:43.339 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:51:43.879 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:51:54.174 [WorkerThread2] ERROR __main__ - Ошибка парсинга ссылки /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:51:54.175 [WorkerThread2] ERROR __main__ - VK ERROR: /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542
+Traceback (most recent call last):
+  File "C:\Users\Gina\Desktop\untitled4\tattoo-bot\bot.py", line 122, in get_vk_track_title
+    r = requests.get(url, headers=headers, timeout=10)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 697, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:51:54.185 [WorkerThread2] WARNING __main__ - VK PARSE FAIL: /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542
+2025-12-27 16:53:28.610 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:53:28.610 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:53:29.075 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:53:39.119 [WorkerThread1] ERROR __main__ - Ошибка парсинга ссылки /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:53:39.120 [WorkerThread1] ERROR __main__ - VK ERROR: /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542
+Traceback (most recent call last):
+  File "C:\Users\Gina\Desktop\untitled4\tattoo-bot\bot.py", line 122, in get_vk_track_title
+    r = requests.get(url, headers=headers, timeout=10)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 697, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:53:39.125 [WorkerThread1] WARNING __main__ - VK PARSE FAIL: /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542
+2025-12-27 16:54:27.461 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:54:27.462 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:56:05.097 [MainThread] INFO __main__ - Bot started
+2025-12-27 16:56:12.878 [WorkerThread2] ERROR __main__ - Ошибка парсинга ссылки /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:56:12.878 [WorkerThread2] ERROR __main__ - VK ERROR: /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542
+Traceback (most recent call last):
+  File "C:\Users\Gina\Desktop\untitled4\tattoo-bot\bot.py", line 122, in get_vk_track_title
+    r = requests.get(url, headers=headers, timeout=10)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 697, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\Gina\Desktop\untitled4\.venv\Lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for '/add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542'
+2025-12-27 16:56:12.882 [WorkerThread2] WARNING __main__ - VK PARSE FAIL: /add https://vk.ru/audio200961588_456240392_7c0ed2fab31b986542
+2025-12-27 16:59:19.109 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 16:59:19.110 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 16:59:19.663 [MainThread] INFO __main__ - 🚀 Bot started
+2025-12-27 16:59:33.770 [WorkerThread2] INFO __main__ - Трек добавлен: ЛСП: Шиншиллы: слушать онлайн от user 1032157088
+2025-12-27 17:04:53.553 [WorkerThread2] INFO __main__ - Трек добавлен: блэйзи?: 18: слушать онлайн от user 733376544
+2025-12-27 18:10:22.475 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 18:10:22.476 [MainThread] ERROR TeleBot - Break infinity polling
+2025-12-27 18:12:55.520 [MainThread] INFO __main__ - 🚀 Bot started
+2025-12-27 18:13:22.220 [WorkerThread2] INFO __main__ - Трек добавлен: ЛСП: Шиншиллы: слушать онлайн от user 1032157088
+2025-12-27 18:13:52.448 [WorkerThread2] INFO __main__ - Трек добавлен: MilleniumKid, JBS, HOLY PRIEST, itgmq Hardstyle: Vielleicht Vielleicht: слушать онлайн от user 1032157088
+2025-12-27 18:14:08.901 [WorkerThread1] INFO __main__ - Трек добавлен: блэйзи?: 18: слушать онлайн от user 1032157088
+2025-12-27 18:17:00.152 [WorkerThread1] INFO __main__ - Очередь очищена пользователем 1032157088
+2025-12-27 18:17:18.050 [WorkerThread2] INFO __main__ - Трек добавлен: ЛСП: Шиншиллы: слушать онлайн от user 1032157088
+2025-12-27 18:17:24.787 [WorkerThread2] INFO __main__ - Трек добавлен: MilleniumKid, JBS, HOLY PRIEST, itgmq Hardstyle: Vielleicht Vielleicht: слушать онлайн от user 1032157088
+2025-12-27 18:17:33.191 [WorkerThread1] INFO __main__ - Трек добавлен: блэйзи?: 18: слушать онлайн от user 1032157088
+2025-12-27 18:18:28.718 [WorkerThread2] INFO __main__ - Очередь очищена пользователем 1032157088
+2025-12-27 18:18:32.744 [WorkerThread2] INFO __main__ - AI запрос от 1032157088
+2025-12-27 18:20:18.330 [WorkerThread2] INFO __main__ - Трек добавлен: FACE: ЛАБИРИНТ: слушать онлайн от user 1032157088
+2025-12-27 18:23:38.919 [MainThread] ERROR TeleBot - Infinity polling: polling exited
+2025-12-27 18:23:38.920 [MainThread] ERROR TeleBot - Break infinity polling
